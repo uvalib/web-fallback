@@ -8,7 +8,8 @@
   "private": "true",
   "dependencies": {
     "@uvalib/uvalib-footer": "^0.1.4",
-    "@uvalib/uvalib-header": "^0.1.11"
+    "@uvalib/uvalib-header": "^0.1.11",
+    "@uvalib/uvalib-theme": "^0.1.4"
   },
   "devDependencies": {
     "rollup": "^2.10.7",
