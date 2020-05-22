@@ -1,0 +1,24 @@
+{
+  "name": "web-fallback",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/uvalib/web-fallback.git",
+  "author": "Doug Chestnut <dougchestnut@gmail.com>",
+  "license": "MIT",
+  "private": "true",
+  "dependencies": {
+    "@uvalib/uvalib-footer": "^0.1.4",
+    "@uvalib/uvalib-header": "^0.1.11"
+  },
+  "devDependencies": {
+    "rollup": "^2.10.7",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^5.3.0"
+  },
+  "scripts": {
+    "build": "npm run dedupe; npx rollup -c rollup.config.js ",
+    "dedupe": "find -L node_modules -name \"node_modules\" | grep -v '^node_modules$' | xargs rm -rf",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
