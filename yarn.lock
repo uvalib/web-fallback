@@ -333,16 +333,16 @@
     "@uvalib/uvalib-ui-base" "^0.1.4"
     lit-element "^2.3.1"
 
-"@uvalib/uvalib-footer@^0.1.4":
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/@uvalib/uvalib-footer/-/uvalib-footer-0.1.4.tgz#0192fd6171e924c917f82729d7f826c39fc473ea"
-  integrity sha512-GPNCX+ZnsViL32nfpD0sWZLLNLVxviqOr+khubTdHwkypeTEsen9gVwyvZG56i5XvBB9bqrEXnkhs5d0I5SGsg==
+"@uvalib/uvalib-footer@^0.1.13":
+  version "0.1.13"
+  resolved "https://registry.yarnpkg.com/@uvalib/uvalib-footer/-/uvalib-footer-0.1.13.tgz#af85efefc3353fc255550c805ddc50aa4e1d118b"
+  integrity sha512-/c/V9SoH14m5Id90QwsW9/wTQ0HP71N+G3CBbG9Z5SLRR6/mAFLXqZeLa24RbsLdMrNJkMTuSv0UDkbI9Y3QgQ==
   dependencies:
     "@polymer/iron-dropdown" "^3.0.1"
     "@polymer/paper-button" "^3.0.1"
     "@polymer/polymer" "^3.0.0"
-    "@uvalib/uvalib-theme" "^0.1.4"
-    "@uvalib/uvalib-ui-base" "^0.1.4"
+    "@uvalib/uvalib-theme" "^0.1.12"
+    "@uvalib/uvalib-ui-base" "^0.1.12"
     lit-element "^2.2.1"
 
 "@uvalib/uvalib-header@^0.1.11":
@@ -419,6 +419,17 @@
     "@polymer/iron-iconset-svg" "^3.0.1"
     "@polymer/polymer" "^3.0.0"
     webfontloader "^1.6.28"
+
+"@uvalib/uvalib-ui-base@^0.1.12":
+  version "0.1.12"
+  resolved "https://registry.yarnpkg.com/@uvalib/uvalib-ui-base/-/uvalib-ui-base-0.1.12.tgz#59674cd2551a624d2ca9b5e4ab57b3fdd3744f04"
+  integrity sha512-KETjWnLmTh1dOXp8u2V7+/5tbw3+494I0CJ+odpdWFS5xwYbjRjNArF6AqqpyC/6QBHBMNUq/bUdShApVatn/g==
+  dependencies:
+    "@polymer/app-route" "^3.0.2"
+    "@polymer/iron-flex-layout" "^3.0.1"
+    "@polymer/iron-media-query" "^3.0.1"
+    "@polymer/polymer" "^3.0.0"
+    "@uvalib/uvalib-theme" "^0.1.12"
 
 "@uvalib/uvalib-ui-base@^0.1.4":
   version "0.1.4"
